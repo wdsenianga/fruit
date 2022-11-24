@@ -1,302 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./CSS/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,300&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-  <title>Fruit</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Fruity</title>
+   <link rel="stylesheet" href="./CSS/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- <div class="hearer">
-    <img src="./images/fruity.png" alt="Logo" class="logo">
-    <div class="home__bar">
-       <a href="#">Home</a>
-       <a href="#">Cataloge</a>
-       <a href="#"> About Us</a>
-    </div>
-    <div class="contact__bar">
-       <a href="#" class="contuct__us">Contact Us</a>
-       <a href="#" class="cart"><img src="./images/cart.svg" alt="Cart"></a>
-       <a href="#" class="serch"><img src="./images/lens.svg" alt="Sertch"></a>
-    </div>
-  </div> -->
-  <section class="title-section">
-     <div class="title-position">
-        <div class="title-area">
-           <h1 class="main-title">
-           <span>Organic</span> Healthy Fresh Food For You<span>.</span>
-           </h1>
-           <div class="content">
-           There are many variations of passages of Lorem Ipsum<br> available, but the majority have suffered alteration
-           </div>
-           <div class="order-now"><a href="#">Order Now
-              <img src="./images/Vector.svg" alt="" class="vector"></a>
+   <div class="wrapper">
+      <div class="container">
+         <header class="header">
+            <a href="#" class="nav">
+               <img src="/Images/logo.png" alt="Logo" class="logo">
+            </a>
+            <ul class="home">
+               <li class="home__items"><a href="#">Home</a></li>
+               <li class="home__items"><a href="#">Categories</a></li>
+               <li class="home__items"><a href="#">About Us</a></li>
+            </ul>
+            <ul class="contact">
+               <li class="contact__item"><a href="#">Contact Us</a></li>
+               <li class="contact__items-cart"> <a href="#"><img src="/Images/cart.svg" alt=""></a></li>
+               <li class="contact__items-lens"><a href="#"><img src="/Images/lens.svg" alt=""></a></li>
+            </ul>
 
-           </div>
-        </div>
-     </div>
-     <div class="main-img__box">
-        <img class="img__fruit main-img" src="./images/header-image.png" alt="Fruit image">
-     </div>
-
-  </section>
-  <!-- <div class="featured__products">
-     <h2 class="fp__title">
-        Featured Product
-     </h2>
-     <div class="fp__wrapp">
-        <div class="product__cards">
-           <img src="images/1.jpg" alt="Banana" class="product__bg bg__size-1">
-           <div class="product__title-box">
-              <span class="product__name">Ripe Yellow Banana</span>
-              <span class="price">$2.89</span>
-           </div>
-           <div class="weight__action-box">
-              <span class="span weight">500g</span>
-              <a href="#" class="buy__action">Buy</a>
-           </div>
-        </div>
-        <div class="product__cards">
-           <img src="images/2.jpg" alt="Red Pomegranate" class="product__bg bg__size-2">
-           <div class="product__title-box">
-              <span class="product__name">Red Pomegranate</span>
-              <span class="price">$3.89</span>
-           </div>
-           <div class="weight__action-box">
-              <span class="span weight">500g</span>
-              <a href="#" class="buy__action">Buy</a>
-           </div>
-        </div>
-        <div class="product__cards">
-           <img src="images/3.jpg" alt="Sweet Orange" class="product__bg">
-           <div class="product__title-box">
-              <span class="product__name">Sweet Orange</span>
-              <span class="price">$2.89</span>
-           </div>
-           <div class="weight__action-box">
-              <span class="span weight">500g</span>
-              <a href="#" class="buy__action">Buy</a>
-           </div>
-        </div>
-        <div class="product__cards">
-           <img src="images/4.jpg" alt="Tasty Avocado" class="product__bg">
-           <div class="product__title-box">
-              <span class="product__name">Tasty Avocado</span>
-              <span class="price">$3.89</span>
-           </div>
-           <div class="weight__action-box">
-              <span class="span weight">500g</span>
-              <a href="#" class="buy__action">Buy</a>
-           </div>
-        </div>
-        <div class="product__cards">
-           <img src="images/5.jpg" alt="Red apples" class="product__bg">
-           <div class="product__title-box">
-              <span class="product__name">Ripe red apples</span>
-              <span class="price">$5.89</span>
-           </div>
-           <div class="weight__action-box">
-              <span class="span weight">500g</span>
-              <a href="#" class="buy__action">Buy</a>
-           </div>
-        </div>
-        <div class="product__cards">
-           <img src="images/6.jpg" alt="Ripe Green Apple" class="product__bg bg__size-6">
-           <div class="product__title-box">
-              <span class="product__name">Ripe Green Apple</span>
-              <span class="price">$1.89</span>
-           </div>
-           <div class="weight__action-box">
-              <span class="span weight">500g</span>
-              <a href="#" class="buy__action">Buy</a>
-           </div>
-        </div>
-        <div class="product__cards">
-           <img src="images/7.jpg" alt="Sweet Strawberry" class="product__bg bg__size-7">
-           <div class="product__title-box">
-              <span class="product__name">Sweet Strawberry</span>
-              <span class="price">$5.89</span>
-           </div>
-           <div class="weight__action-box">
-              <span class="span weight">500g</span>
-              <a href="#" class="buy__action">Buy</a>
-           </div>
-        </div>
-        <div class="product__cards">
-           <img src="images/8.jpg" alt="Watemelon" class="product__bg">
-           <div class="product__title-box">
-              <span class="product__name">Tasty Watemelon</span>
-              <span class="price">$6.89</span>
-           </div>
-           <div class="weight__action-box">
-              <span class="span weight">500g</span>
-              <a href="#" class="buy__action">Buy</a>
-           </div>
-        </div>
-     </div>
-
-  </div>
-  <div class="hiw__block">
-     <div class="hiw__wrapp">
-        <div class="hiw__images-groupe">
-           <img src="images/hiw.png" alt="" class="hiw__img">
-        </div>
-        <div class="hiw__decription-groupe">
-           <h2 class="hiw__title">How it Works</h2>
-           <p class="hiw__text">Lorem Ipsum is simply dummy text of the printi and typesetting industry. Lorem Ipsum has been the industry's </p>
-           <div class="hiw__order-box">
-              <div class="hiw__conditions-box">
-                 <img src="images/1.svg" alt="Cart" class="hiw__choise">
-                 <div class="hiw__text-box">
-                    <h3 class="hiw__choise-product">Choose Product</h3>
-                    <p class="hiw__choise-content">Lorem Ipsum is simply dummy text of the printi</p>
-                 </div>
-              </div>
-              <div class="hiw__conditions-box">
-                 <img src="images/2.svg" alt="Payment" class="hiw__pay-img">
-                 <div class="hiw__text-box">
-                    <h3 class="hiw__choise-product">Do Payment</h3>
-                    <p class="hiw__choise-content">Lorem Ipsum is simply dummy text of the printi</p>
-                 </div>
-              </div>
-              <div class="hiw__conditions-box">
-                 <img src="images/3.svg" alt="Confirm Payment" class="hiw__confirm">
-                 <div class="hiw__text-box">
-                    <h3 class="hiw__choise-product">Confirmation Payment</h3>
-                    <p class="hiw__choise-content">Lorem Ipsum is simply dummy text of the printi</p>
-                 </div>
-              </div>
-              <div class="hiw__conditions-box">
-                 <img src="images/4.svg" alt="Shipping" class="hiw__shippment">
-                 <div class="hiw__text-box">
-                    <h3 class="hiw__choise-product">Order Shipped</h3>
-                    <p class="hiw__choise-content">Lorem Ipsum is simply dummy text of the printi</p>
-                 </div>
-              </div>
-           </div>
-        </div>
-        <img src="images/crk.png" alt="Cirkle" class="cirkle">
-     </div>
-  </div>
-  <div class="about__us">
-     <div class="au__container">
-        <div class="au__wrapp">
-           <div class="au__description-box">
-              <h2 class="au__title">
-                 About Us
-              </h2>
-              <p class="au__text">
-                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              </p>
-              <a href="#" class="au__read-more">
-                 Read More
-              </a>
-           </div>
-           <img src="./images/about-image.png" alt="about-image" class="au__bg">
-        </div>
-
-     </div>
-     <img src="./images/crk.png" alt="" class="au__cirkle">
-  </div>
-  <div class="costumer__review">
-     <div class="cr__wrapp">
-        <h2 class="cr__title">Customer Review</h2>
-        <div class="review__box">
-           <div class="review__cards">
-              <p class="review__text">
-                 We help our clients make realize thier most important businessWe help our clients make realize thier  We help our clients make realize thier most important businessWe help our clients make realize
-              </p>
-              <div class="costumer__description">
-                 <img src="./images/Group 341.png" alt="Costumer photo" class="costumer__img">
-                 <div class="costumer__text">
-                    <h3 class="name">Kevin Andrew</h3>
-                    <div class="costumer__rate">Happy Customers</div>
-                 </div>
-              </div>
-           </div>
-        </div>
-        <div class="review__box-2">
-           <div class="review__cards-2">
-              <p class="review__text-2">
-                 We help our clients make realize thier most important businessWe help our clients make realize thier  We help our clients make realize thier most important businessWe help our clients make realize
-              </p>
-              <div class="costumer__description-2">
-                 <img src="./images/Group 341.png" alt="Costumer photo" class="costumer__img-2">
-                 <div class="costumer__text-2">
-                    <h3 class="name-2">Kevin Andrew</h3>
-                    <div class="costumer__rate-2">Happy Customers</div>
-                 </div>
-              </div>
-           </div>
-        </div>
-        <div class="review__box-3">
-           <div class="review__cards-3">
-              <p class="review__text-3">
-                 We help our clients make realize thier most important businessWe help our clients make realize thier  We help our clients make realize thier most important businessWe help our clients make realize
-              </p>
-              <div class="costumer__description-3">
-                 <img src="./images/Group 341.png" alt="Costumer photo" class="costumer__img-3">
-                 <div class="costumer__text-3">
-                    <h3 class="name-3">Kevin Andrew</h3>
-                    <div class="costumer__rate-3">Happy Customers</div>
-                 </div>
-              </div>
-           </div>
-        </div>
-     </div>
-     <div class="arrow__right">
-        <a class="right" href="#"><img class="arrow__right" src="./images/Group 350.svg" alt="Right"></a>
-        <a class="left" href="#"><img src="./images/Group 351.svg" alt=""></a>
-     </div>
-  </div>
-  <footer class="footer">
-     <div class="footer__wrapp">
-        <div class="media__bar">
-           <div class="first__section">
-              <a href="#" class="logo__footer">Fruity</a>
-              <div class="logo__footer-content">Lorem Ipsum is simply dummy<br> typesetting industry. Lorem Ipsum<br> has been the industry's standard </div>
-              <div class="media__links">
-                 <ul>
-                    <li class="fb"><a href="#"><img src="./images/fb.png" alt="fb" class="fb__icon"></a></li>
-                    <li class="twit"><a href="#"><img src="./images/twit.png" alt="Twitter" class="twitt__icon"></a></li>
-                    <li class="linkeby"><a href="#"><img src="./images/linkihed.png" alt="" class="twitt__icon"></a></li>
-                    <li class="youtube"><a href="#"><img src="./images/youtube.png" alt="Youtube" class="youtube__icon"></a></li>
-                 </ul>
-              </div>
-           </div>
-           <div class="community">
-              <h3 class="community__title">Community</h3>
-              <ul>
-                 <li class="community__items"><a class="links" href="#">For Agents</a></li>
-                 <li class="community__items"><a href="#">For Seller</a></li>
-                 <li class="community__items"><a href="#">For Buyer</a></li>
-                 <li class="community__items"><a href="#">Search home</a></li>
-              </ul>
-           </div>
-           <div class="footer__about">
-              <h3 class="title__about">About</h3>
-              <ul>
-                 <li class="about__items"><a href="#">Our Story</a></li>
-                 <li class="about__items"><a href="#">Careers</a></li>
-                 <li class="about__items"><a href="#">Meet the Team</a></li>
-              </ul>
-           </div>
-           <div class="contact">
-              <h3 class="title__contact">Contact</h3>
-              <ul>
-                 <li class="contact__items"><a href="#">29/A Berden Street</a></li>
-                 <li class="contact__items"><a href="#">Simply random text</a></li>
-                 <li class="contact__items"><a href="#">It has roots in a piece of<br> classical latin from 45</a></li>
-              </ul>
-           </div>
-        </div>
-        <div class="footer__line"></div>
-     </div>
-     <div class="footer__end">© 2021 Real State All Rights Reserved.</div>
-  </footer> -->
+            <div class="btn-box">
+               <a href="#" class="btn">
+                  <span class="btn-span"></span>
+               </a>
+            </div>
+            
+         </header>
+            
+         
+         <div class="main">
+            <div class="container-main">
+               <h1 class="title">
+                  <span>Organic</span><br> Healthy Fresh <br> Food For You<span>.</span>
+               </h1>
+               <p class="title-text">
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+               </p>   
+               <a href="#" class="order">Order Now</a>
+            </div>
+               
+            <img src="/Images/header-image.png" alt="Fruits" class="heare-image">
+               
+         </div>
+      </div>
+   </div>
+    
 </body>
 </html>
